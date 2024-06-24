@@ -6,5 +6,5 @@ por lo que, por medio de código de python, se tuvo que crear otra carpeta con l
 Por lo tanto, en este README se proporcionan dos enlaces, uno de ellos a la carpeta ''data'' la cual se corresponde con la carpeta inicial descargada de internet con las imágenes de radiografía de tórax con y sin neumonía
 distribuidas en distintas subcarpetas. Y, el otro enlace lleva a la carpeta ''data_nuevo'', que es la carpeta creada con la redistribución de las imágenes y la carpeta principal que se emplea en este trabajo.
 
-- Link a la carpeta ''data'': COMPLETAR
-- Link a la carpeta ''data_nuevo'': COMPLETAR
+- Link a la carpeta ''data'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/ESVy_MWCxGhOjVv4diaD40QBizFKxoUYpSXz2Sdlr6Afeg?e=VbxbEj
+- Link a la carpeta ''data_nuevo'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EQdZechTq-VIsWCQq9-I-EIBKMhStRhQvBI1mi-bIw4Qfg?e=7LKcFl
