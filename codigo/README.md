@@ -35,8 +35,8 @@ Las carpetas se encuentran comprimidas en zip por lo que, para poder abrirlas se
 A continuación se incluyen los links para cada una de las carpetas mencionadas previamente:
 - Link a la carpeta ''Datos'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EZ8LorRxSA5Iloj3xrqpNcMB3MWCLjkjo0WXN73hTDo-oA?e=prWsvA
 - Link a la carpeta ''Historicos'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/ETeZTNJyl8xMoBQw_mUaNDwBLc2To56a3tZXsCjhiVf5uQ?e=xkfwJJ
-- Link a la carpeta ''Modelos'':
-- Link a la carpeta ''Resultados'':
+- Link a la carpeta ''Modelos'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EbkFyDnPb3lBuN052oToXeYBVczT2iDGJzsdHzzOBOIOCQ?e=ApWnJE
+- Link a la carpeta ''Resultados'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EZyQGJIFeGpGvSqijuTZ66kB1kLc7mRpThMXeGbWfEqi-A?e=OYypcP
 - Link a la carpeta ''Historicos_Py'': COMPLETAR
 - Link a la carpeta ''Modelos_Py'': COMPLETAR
 - Link a la carpeta ''Resultados_Py'': COMPLETAR
