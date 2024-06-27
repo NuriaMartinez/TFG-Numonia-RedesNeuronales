@@ -16,7 +16,8 @@ from keras import layers
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_auc_score
 from keras.callbacks import EarlyStopping
-
+from tensorflow.keras.callbacks import ModelCheckpoint
+from sklearn import metrics
 
 def buscar_imagen(directorio_padre, nombre_imagen):
     '''
@@ -648,7 +649,7 @@ def arq_batch_AlexNet(ruta,epochs,batch_sizes,modelos,target_size, nombre_carpet
             #se crea la ruta a la subcarpeta dentro de la nueva carpeta de modelos
             subcarpeta_modelo = os.path.join(ruta_modelos, 'modelo_alexnet_arqu_batchsize')
             os.makedirs(subcarpeta_modelo, exist_ok=True) # se crea la nueva subcarpeta si esta no existe
-             nombre_modelo = f'modelo_alexnet_{modelo}_{batch_size}.h5' #se define en nombre de cada uno de los archivos que contienen los modelos
+            nombre_modelo = f'modelo_alexnet_{modelo}_{batch_size}.h5' #se define en nombre de cada uno de los archivos que contienen los modelos
             ruta_modelo = os.path.join(subcarpeta_modelo, nombre_modelo) #se define la ruta donde se econtrará cada modelo
             model.save(ruta_modelo) #se guarda el modelo
 
@@ -763,7 +764,7 @@ def neuronas(num_neuronas, epochs, ruta, batch_size, target_size, nombre_carpeta
         ruta_historicos = os.path.join('.', nombre_carpeta_hist) #se crea la ruta a la nueva carpeta de Historicos en el directorio actual
         os.makedirs(ruta_historicos, exist_ok=True) # se crea la nueva carpeta si esta no existe
         #se crea la ruta a la subcarpeta dentro de la nueva carpeta de modelos
-        subcarpeta_historicos = os.path.join(ruta_historicos,'historico_3_64') 
+        subcarpeta_historicos = os.path.join(ruta_historicos,'historico_neuronas') 
         os.makedirs(subcarpeta_historicos, exist_ok=True) # se crea la nueva subcarpeta si esta no existe
         nombre_historico = f'historico_{neurona}.csv' #se define el nombre que van a tener cada uno de los csv donde esta el historico correspondiente
         ruta_historico = os.path.join(subcarpeta_historicos, nombre_historico) #se define la ruta donde se econtrará cada modelo
@@ -773,9 +774,9 @@ def neuronas(num_neuronas, epochs, ruta, batch_size, target_size, nombre_carpeta
         ruta_modelos = os.path.join('.', nombre_carpeta_modelos) #se crea la ruta a la nueva carpeta de Modelos en el directorio actual
         os.makedirs(ruta_modelos, exist_ok=True) # se crea la nueva carpeta si esta no existe
         #se crea la ruta a la subcarpeta dentro de la nueva carpeta de modelos
-        subcarpeta_modelo = os.path.join(ruta_modelos, 'modelo_3_64')
+        subcarpeta_modelo = os.path.join(ruta_modelos, 'modelo_neuronas')
         os.makedirs(subcarpeta_modelo, exist_ok=True) # se crea la nueva subcarpeta si esta no existe
-        nombre_modelo = f'neuronas_{neurona}.h5' #se define en nombre de cada uno de los archivos que contienen los modelos
+        nombre_modelo = f'modelo_{neurona}.h5' #se define en nombre de cada uno de los archivos que contienen los modelos
         ruta_modelo = os.path.join(subcarpeta_modelo, nombre_modelo) #se define la ruta donde se econtrará cada modelo
         model.save(ruta_modelo) #se guarda el modelo
 
@@ -799,7 +800,7 @@ def neuronas(num_neuronas, epochs, ruta, batch_size, target_size, nombre_carpeta
     #SE GUARDA EL DATAFRAME FINAL EN UNA CARPETA EN FORMATO CSV
     ruta_resultados = os.path.join('.', nombre_carpeta_resultados) #se crea la ruta a la nueva carpeta de Resultados en el directorio actual
     os.makedirs(ruta_resultados, exist_ok=True) # se crea la nueva carpeta si esta no existe
-    ruta_resultado_final = os.path.join(ruta_resultados, 'compara_neuronas_3_64.csv') #se define la ruta donde se econtrará el dataframe
+    ruta_resultado_final = os.path.join(ruta_resultados, 'compara_neuronas.csv') #se define la ruta donde se econtrará el dataframe
     compara_neuronas_def.to_csv(ruta_resultado_final, index=False, encoding='utf-8') #se crea el csv del dataframe
    
     return compara_neuronas_def
