@@ -1,12 +1,11 @@
-<img style="float:left" width="50%" src="/codigo/pics/Universidad Burgos.png">
+<img style="float:left" width="80%" src="/codigo/pics/cabeceraSalud.jpg">
 
 # Trabajo Fin de Grado
 
 <h2 style="display: inline-block; padding: 4mm; padding-left: 2em; background-color: navy; line-height: 1.3em; color: white; border-radius: 10px;">NOMBRE TFG</h2>
 
-### Grado en Ingeniería de la Salud 
 
-### Alumna: **Nuria Martínez Queralt**  
+### **Nuria Martínez Queralt**  
 ### Tutor 1: **Daniel Urda Muñoz**  
 ### Tutor 2: **Fernando Gustavo Gutierrez Herrero**  
 
