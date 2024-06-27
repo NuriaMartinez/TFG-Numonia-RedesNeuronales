@@ -21,6 +21,6 @@ A continuación, se incluyen los links para cada una de las carpetas mencionadas
 -	Link a la carpeta ''Historicos'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EajSsbq0mBRPuUNbaIfqgpEB7lGU9EqPl184BaLr54ok8g?e=Wg5KdE
 -	Link a la carpeta ''Modelos'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EYbNj_Y1kYpLi4qOJHMxmC8BjUwwImJvPci-o2rrmE4d-w?e=4j072G
 -	Link a la carpeta ''Resultados'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EVSmiGBpAGVEqtenA_z1w0gBEor3Uz6AeSVz7zKvowpEZg?e=DkyJYe
--	Link a la carpeta ''Historicos_Py'': COMPLETAR
--	Link a la carpeta ''Modelos_Py'': COMPLETAR
--	Link a la carpeta ''Resultados_Py'': COMPLETAR
+-	Link a la carpeta ''Historicos_Py'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EbHEtKCBMwVHuLjSqCfZAWUB7p__xISxJ2DVbmqRHVMoRA?e=4oKL2I
+-	Link a la carpeta ''Modelos_Py'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EcGwNiLnTwRMjfC2_t1YncQBu3AGtJ77hfUklA1ZQ2vJUA?e=4ZZKM1
+-	Link a la carpeta ''Resultados_Py'': https://universidaddeburgos-my.sharepoint.com/:u:/g/personal/nmq1001_alu_ubu_es/EYFFut4lK95BjCYclccB3JQBHj9oDsq_Ks64ltOKZ0KmdQ?e=fG9BjN
