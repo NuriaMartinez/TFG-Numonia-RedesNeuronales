@@ -28,6 +28,13 @@ Various techniques such as magnetic resonance imaging (MRI), chest X-ray (CXT) a
 Therefore, this work focuses on providing assistance to medical staff in the diagnosis of pneumonia through the interpretation of medical images such as CXT images by means of artificial intelligence (AI), with the aim of advancing the diagnosis and improving its accuracy.
 
 ## **Estructura del repositorio**
+Aunque en el Anexo C de la memoria se encuentra detalladamente explicado todo el contenido del repositorio, a continuación se muestra un breve resumen de lo que se puede encontrar en él:
+- Anexo_Nuria_Martinez.pdf: documento en formato pdf que contiene los anexos del trabajo
+- Memoria_Nuria_Martinez.pdf: documento en formato pdf que contiene la memoria del trabajo
+- README.md: archivo de presentación del repositorio de GitHub que incluye los enlaces a las carpetas con las imágenes de radiografía de tórax empleadas en este trabajo. Para más información consultar el Anexo C dentro de ''Anexo_Nuria_Martinez.pdf''.
+- codigo: carpeta con todos los notebooks realizados en este trabajo con toda su documentación y carpetas obtenidas a partir de dichos notebooks. Para más información consultar el Anexo C dentro de ''Anexo_Nuria_Martinez.pdf''.
+- Imágenes memoria y anexos: carpeta con todas las imágenes incluidas en la memoria y los anexos.
+- Artículos y libros TFG: carpeta donde se encuentran los principales artículos y libros con los que se ha documentado este trabajo. 
 
 ## **Descripción de los datos**
 Debido a la gran cantidad de imágenes de radiografía de tórax con las que se trabaja, no es posible subir a GitHub la carpeta con todas las imágenes por lo que, este acceso se consigue a través de distintos enlaces a OneDrive.
