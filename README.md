@@ -36,8 +36,13 @@ Aunque en el Anexo C de la memoria se encuentra detalladamente explicado todo el
 - Memoria_Nuria_Martinez.pdf: documento en formato pdf que contiene la memoria del trabajo
 - README.md: archivo de presentación del repositorio de GitHub que incluye los enlaces a las carpetas con las imágenes de radiografía de tórax empleadas en este trabajo. Para más información consultar el Anexo C dentro de ''Anexo_Nuria_Martinez.pdf''.
 - codigo: carpeta con todos los notebooks realizados en este trabajo con toda su documentación y carpetas obtenidas a partir de dichos notebooks. Para más información consultar el Anexo C dentro de ''Anexo_Nuria_Martinez.pdf''.
-- Imágenes memoria y anexos: carpeta con todas las imágenes incluidas en la memoria y los anexos.
-- Artículos y libros TFG: carpeta donde se encuentran los principales artículos y libros con los que se ha documentado este trabajo. 
+- img: carpeta con todas las imágenes incluidas en la memoria y los anexos.
+- Artículos y libros TFG: carpeta donde se encuentran los principales artículos y libros con los que se ha documentado este trabajo.
+- tex: carpeta que incluye cada uno de los apartados de la memoria y los anexos en formato LaTex.
+- anexos.tex: documento LaTex que incluye la organización del archivo PDF de los anexos
+- memoria.tex: documento LaTex que incluye la organización del archivo PDF de la memoria
+- bibliografia.bib: archivo que contiene toda la bibliografía empleada para la redacción de la memoria
+- bibliografiaAnexos.bib: archivo que contiene toda la bibliografía empleada para la redacción de los anexos
 
 ## **Descripción de los datos**
 Debido a la gran cantidad de imágenes de radiografía de tórax con las que se trabaja, no es posible subir a GitHub la carpeta con todas las imágenes por lo que, este acceso se consigue a través de distintos enlaces a OneDrive.
