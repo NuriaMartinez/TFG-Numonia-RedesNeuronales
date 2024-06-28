@@ -9,6 +9,9 @@
 ### Tutor 1: **Daniel Urda Muñoz**  
 ### Tutor 2: **Fernando Gustavo Gutierrez Herrero**  
 
+## **Descripción**
+En este repositorio se encuentran los documentos del Trabajo de Fin de Grado de Ingeniería de la Salud de la Universidad de Burgos. A partir de estos documentos, se puede seguir el desarrollo del TFG, cuyo principal objetivo es entrenar una red neuronal capaz de identificar la presencia o ausencia de neumonía a partir de imágenes de radiografía de tórax.
+
 ## **Resumen**
 La neumonía es una infección respiratoria aguda que afecta a las vías respiratorias y a los alvéolos. Causando que los sacos de aire, o alvéolos, en los pulmones se llenen de líquido o pus, lo que provoca su inflamación. 
 
