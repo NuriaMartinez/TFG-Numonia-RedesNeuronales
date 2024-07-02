@@ -836,7 +836,7 @@ def grafica(directorio_historico, metrica_entrenamiento, metrica_validacion):
     
     # Se añaden etiquetas al eje x, el eje y y el título de la gráfica
     plt.xlabel('Epochs')
-    plt.ylabel('loss/auc') 
+    plt.ylabel(metrica_entrenamiento) 
     plt.title('Gráfico evolución entrenamiento y validación')
     
     # Se añade la leyenda
