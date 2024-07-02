@@ -1,3 +1,14 @@
+<img style="float:left" width="80%" src="/codigo/pics/cabeceraSalud.jpg">
+
+# Trabajo Fin de Grado
+
+<h2 style="display: inline-block; padding: 4mm; padding-left: 2em; background-color: navy; line-height: 1.3em; color: white; border-radius: 10px;">Detección de neumonía mediante aprendizaje automático a partir de radiografías de tórax</h2>
+
+
+### **Nuria Martínez Queralt**  
+### Tutor 1: **Daniel Urda Muñoz**  
+### Tutor 2: **Natalia Busto Vázquez**  
+
 ## Acceso a las carpetas ''Datos'', ''Historicos'', ''Modelos'', ''Resultados'',''Historicos_Py'', ''Modelos_Py'' y ''Resultados_Py''
 
 Debido al espacio limitado para emplear en GitHub, se han añadido las carpetas obtenidas tras la ejecución de código en este README a partir del link de OneDrive.
