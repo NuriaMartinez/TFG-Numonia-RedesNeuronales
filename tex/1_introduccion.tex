@@ -1,0 +1,17 @@
+\capitulo{1}{Introducción}
+
+La neumonía es una infección que afecta a uno o ambos pulmones causando que estos se llenen de líquido o pus. Entre las principales causas de la neumonía, se encuentran las infecciones bacterianas, virales y fúngicas siendo la primera de ellas la más común de todas~\cite{med24}.
+Según la Organización Mundial de la Salud (OMS), la neumonía representó el 14\% de las defunciones en menores de 5 años en 2019 en todo el mundo, sobre todo en las zonas de Asia meridional y África subsahariana ~\cite{oms24}.
+
+Un diagnóstico temprano de la neumonía es fundamental para su correcto tratamiento, pero, en ocasiones, puede ser difícil de diagnosticar debido a su similitud de síntomas con la gripe o el resfriado. Para un diagnóstico diferencial, se emplea comúnmente la CXT por ser una prueba no invasiva y relativamente económica. Aunque, también puede traer complicaciones, ya que requiere amplios conocimientos para identificar una neumonía correctamente, algo que, en muchas ocasiones ni siquiera médicos especializados son capaces de reconocer, lo que puede agravar los síntomas y empeorar su tratamiento. Esto empeora en las zonas menos desarrolladas donde es aún más complicado encontrar expertos con esas capacidades~\cite{Irfan20, kundu2021pneumonia}.
+
+El aprendizaje profundo es una herramienta de IA que emplea redes neuronales convolucionales (CNN) para analizar grandes cantidades de datos y realizar tareas complejas de manera autónoma. Entre esas tareas, destaca la clasificación de imágenes. Esta herramienta se está empezando a emplear en el ámbito clínico, para la clasificación de imágenes médicas, por ejemplo, para identificar la presencia de neumonía en una CXT ~\cite{kundu2021pneumonia}.
+
+Es por esto que, con este trabajo se busca dotar al personal sanitario de una herramienta basada en una red neuronal entrenada que sea capaz de identificar en una CXT de pacientes de entre 1 y 5 años una posible neumonía. Con el fin de reducir tanto los tiempos de espera como los errores garantizando una mayor seguridad en el diagnóstico y el tratamiento. 
+
+Para ello, se han creado dos modelos distintos de CNN (AlexNet y uno de creación propia) con distintas arquitecturas e hiperparámetros (número de neuronas, tamaño de lote, etc.) hasta obtener un modelo razonablemente bueno a juzgar por diversas métricas como AUC, \textit{accuracy}, \textit{recall}, f1, etc. 
+
+Aunque, antes de poder ser introducido en el ámbito clínico se han de realizar numerosas mejoras.
+
+Toda la información relativa a este trabajo se encuentra en esta memoria y sus anexos correspondientes. Además existe información adicional cuya estructura está correctamente explicada en el \textit{Anexo C}.
+

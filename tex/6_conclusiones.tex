@@ -1,0 +1,41 @@
+\capitulo{6}{Conclusiones}
+
+\section{Aspectos relevantes.}
+
+Finalmente, se puede concluir que, se ha cumplido en mayor o menor medida con todos los objetivos estipulados en este trabajo:
+\begin{itemize}
+    \item Para comparar todos y cada uno de los resultados mencionados a continuación, se ha desarrollado una función para calcular una serie de métricas con las que se comparan los distintos modelos.
+    \item Se han desarrollado dos CNN distintas, una propia y otra obtenida a partir de la CNN AlexNet, se han comparado y se ha determinado que, para este caso concreto, funciona mejor la CNN AlexNet.
+    \item Se han desarrollado tres modelos de arquitectura diferentes, cada uno de ellos con distinto número de capas ocultas y, se ha determinado con cuál de los tres se obtienen mejores resultados de las métricas. Los modelos ``Simple2'' y ``Simple3'' estaban bastante a la par, aunque, en la prueba concreta realizada, los mejores resultados se han obtenido para el modelo ``Simple3'' (con dos capas ocultas).
+    \item Se han modificado algunos hiperparámetros, se han comparado los resultados obtenidos con distintos \textit{batch size} y se ha determinado que el \textit{batch size} de 64 es el que funciona mejor para el modelo ``Simple3''.
+    \item Se ha comprobado que, aumentando el número de neuronas en las capas ocultas del modelo Simple3, no se obtienen mejores resultados por lo que, se han mantenido los valores iniciales de neuronas (100 y 16 respectivamente).
+    \item Para el desarrollo de este trabajo, se ha empleado la herramienta keras para la creación de redes neuronales profundas en Python. Esto supone un aprendizaje que puede resultar muy útil de cara al futuro ya que keras es una herramienta muy popular en IA.
+    \item Gracias a los numerosos artículos leídos acerca de la neumonía y las CXT, se ha podido profundizar mucho más acerca de esta patología y su método diagnóstico. También se ha aprendido mucho acerca de las imágenes médicas y la forma de identificar la patología. 
+    
+\end{itemize}
+
+También hay que mencionar que, al no haber podido acceder a ningún supercomputador y haber trabajado a nivel de CPU con el ordenador personal, se ha tardado mucho más en ejecutar las funciones, lo que ha retrasado el trabajo y, también, se han tenido que disminuir el número de épocas a ejecutar por lo que, los resultados obtenidos no son los óptimos.
+
+Como conclusión final, se puede afirmar que, con este trabajo se han adquirido grandes conocimientos en el ámbito de IA y redes neuronales profundas, además de en lo referente a neumonía y CXT, lo que puede ser de gran ayuda para un futuro en el ámbito de la Ingeniería de la Salud.
+
+\subsection{Inconvenientes}
+
+A la hora de realizar este trabajo, han surgido diversos inconvenientes, desde cambios en los objetivos del TFG hasta problemas para acceder a más de un supercomputador.
+
+En primer lugar, tal y como se explica en el \textit{Anexo A}, ha habido varios cambios hasta llegar al TFG definitivo. Resumiendo lo indicado en este Anexo, se cambió de TFG hasta en tres ocasiones debido a diferentes problemas. El primer TFG consistía en la identificación de cáncer de pulmón a partir de imágenes de TAC entrenando una red neuronal. El problema de este TFG fue el tipo de imágenes con el que se iba a trabajar ya que, las imágenes de TAC son imágenes tridimensionales, lo que supone una gran complejidad a la hora de analizar cada uno de los cortes. En el segundo TFG, el objetivo era identificar cáncer de pulmón a partir de CXT anotando las imágenes y entrenando una red neuronal. Este TFG presentaba dos inconvenientes, el primero era la dificultad para conseguir que un médico especializado del hospital indicara en todas y cada una de las imágenes de CXT donde estaba exactamente el tumor y, el segundo problema fue la necesidad de ser aprobados por el comité de bioética para trabajar con las imágenes de CXT de pacientes del Hospital Universitario de Burgos (HUBU) ya que, tras la realización de un primer informe, este fue denegado y, ya no se llegaba a tiempo para una posible aprobación. Todos estos puntos están explicados con una mayor profundidad en el \textit{Anexo A}. Finalmente, la tercera opción de TFG sí ha podido realizarse, aunque, con otra serie de complicaciones mencionadas a continuación.
+
+Ha habido varios problemas con GitHub y sus aplicaciones derivadas. En un principio, la idea era emplear ZenHub, una herramienta de gestión de proyectos que trabaja con GitHub para la planificación y seguimiento del proyecto, pero, había que pagar unos 10 euros mensuales por usuario ya que, el plazo para solicitar las plazas gratuitas para estudiantes se había acabado. Por lo que, se descartó esta opción. Después se barajaron otras opciones similares a ZenHub, como ``Asana'' o ``Jira'' pero, tras investigar más a fondo cada una de ellas se llegó a la conclusión de que solo ofrecían un mes de prueba y luego también había que pagar una mensualidad para su uso completo. Por lo que, finalmente se empleó únicamente GitHub para la planificación del trabajo.
+
+Durante la realización del segundo TFG también surgieron otra serie de problemas ya que, a la hora de seguir los pasos indicados en el video \footnote{\url{https://www.youtube.com/watch?v=IOI0o3Cxv9Q}}, necesario para la realización de esta propuesta de TFG, se tuvo que instalar y desinstalar en numerosas ocasiones tanto la aplicación de Python como el entorno de anaconda empleado para el TFG debido a que las versiones necesarias para realizar lo indicado en el video tenían que ser muy concretas y causaban problemas con mucha facilidad.
+
+Por último, también han surgido problemas a la hora de intentar acceder a un supercomputador. Primero se intentó acceder al Supercomputación de Castilla y León (SCAYLE) pero, tras enviar la solicitud y no recibir respuesta, se descubrió que, el supercomputador había dejado de funcionar durante los meses en los que estaba previsto su uso. Una vez se supo esto, se solicitó acceso al cluster de León para usar GPUs que tiene el cluster pero, tampoco se ha podido usar debido a una mala gestión en la asignación de recursos por parte de los administradores. Ya que, supuestamente tienen reservados unos 100 terabytes para ser usados por personas de Burgos con acceso a este cluster pero, estaba dando problemas empleando una capacidad mucho menor. Por lo que, a pesar de que se está trabajando para corregir este problema, no se llegaba a tiempo para poder usarlo en este trabajo. 
+
+Finalmente, se ha trabajado con el ordenador personal a nivel de CPU. Esto ha supuesto que, los resultados obtenidos sean peores que si se hubiera empleado un supercomputador debido a las limitaciones de precisión y eficiencia, tal y como se ha comentado en el apartado de ``Resultados''.
+
+
+
+
+
+
+
+
